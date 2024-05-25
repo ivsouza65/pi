@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena Enem</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="athena1.png" alt="Athena Enem">
+            <h1>ATHENA ENEM</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+        
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="plano.html">Planos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Alcance seus objetivos no Enem com a Athena!</h1>
+                <p>Oferecemos cursos preparatórios completos para você conquistar a sua vaga na faculdade dos sonhos.</p>
+                <a href="cadastro.html" class="btn btn-primary">Matricule-se agora!</a>
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <div class="container">
+                <h2>Por que escolher a Athena Enem?</h2>
+                <div class="beneficios-item">
+                    <img src="icone-professor.png" alt="Professores qualificados">
+                    <h3>Professores qualificados</h3>
+                    <p>Nossa equipe de professores é formada por especialistas em suas áreas, com vasta experiência no Enem.</p>
+                </div>
+                <div class="beneficios-item">
+                    <img src="icone-material-didatico.png" alt="Material didático completo">
+                    <h3>Material didático completo</h3>
+                    <p>Oferecemos um material didático completo e atualizado, com videoaulas, exercícios e simulados.</p>
+                </div>
+                <div class="beneficios-item">
+                    <img src="icone-acompanhamento-personalizado.png" alt="Acompanhamento personalizado">
+                    <h3>Acompanhamento personalizado</h3>
+                    <p>Oferecemos um acompanhamento personalizado para cada aluno, com tutoria individual e feedback detalhado.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre hidden">
+            <div class="container">
+              <h2>Sobre</h2>
+              <div class="sobre">
+              <p>A Athena Enem é uma plataforma de ensino online que oferece cursos preparatórios completos para o Enem. Nossa missão é ajudar os alunos a alcançarem seus objetivos nas universidades mais renomadas do país.</p>
+        
+              <p>Oferecemos:</p>
+              <ul>
+                <li>Professores qualificados e experientes</li>
+                <li>Material didático completo e atualizado</li>
+                <li>Plataforma online moderna e fácil de usar</li>
+                <li>Acompanhamento personalizado e feedback detalhado</li>
+                <li>Simulados e provas preparatórias para o Enem</li>
+              </ul>
+        
+              <p>Com a Athena Enem, você terá acesso a tudo o que precisa para conquistar a sua vaga dos sonhos na faculdade. Venha estudar conosco e faça a diferença no seu futuro!</p>
+            </div>
+            </div>
+        </section>
+
+        <script>
+            const sobreLink = document.querySelector('nav a[href="#sobre"]');
+            const sobreSection = document.querySelector('.sobre');
+      
+            sobreLink.addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent default link behavior
+      
+              // Smooth scrolling to the "Sobre" section
+              sobreSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+
+        </main>
+
+        <section class="depoimentos">
+            <div class="container">
+                <h2>O que nossos alunos dizem</h2>
+                <div class="depoimento">
+                    <p>"Graças à Athena Enem, consegui alcançar a minha nota dos sonhos no Enem e entrei na faculdade que sempre quis! Os professores são incríveis e o material didático é muito completo." - Ana Souza</p>
+                </div>
+                <div class="depoimento">
+                    <p>"Eu me sentia perdida e sem saber por onde começar a estudar para o Enem. A Athena Enem me deu o direcionamento que eu precisava e me ajudou a conquistar a vaga dos meus sonhos." - João Silva</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="container">
+                <h2>Realize seus sonhos com a Athena Enem!</h2>
+                <a href="#" class="btn btn-primary">Matricule-se agora!</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Athena Enem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

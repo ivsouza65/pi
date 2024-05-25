@@ -1,0 +1,117 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para cards */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.card li {
+    padding: 5px 0;
+}
+
+.card a {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para depoimentos */
+#depoimentos .card {
+    text-align: left;
+}
+
+#depoimentos .card p {
+    margin: 10px 0;
+}
+
+/* Estilos para formas de pagamento */
+#pagamento ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#pagamento li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#pagamento li img {
+    width: 50px;
+    height: auto;
+}
+
+/* Estilos para footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
